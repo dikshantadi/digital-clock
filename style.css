@@ -1,0 +1,56 @@
+body{
+    margin: 0;
+    background-image: url('/img/sunset.png');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+h1{
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-align: center;
+    font-family: fantasy;
+}
+
+.Clock{
+    display: flex;
+    backdrop-filter: blur(4px);
+    border: 0.5px solid black;
+}
+
+.Clock div{
+    margin: 5px;
+}
+
+.Clock span{
+    width: 100px;
+    height: 80px;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    /* backdrop-filter: blur(4px); */
+    align-items: center;
+    font-size: 50px;
+    text-shadow: 2px 2px 2px black;
+}
+#Text{
+    height: 20px;
+    font-size: small;
+    text-transform: uppercase;
+    font-family: cursive;
+    /* backdrop-filter: invert(30%); */
+}
+.Clock #AM{
+    bottom: -32px;
+    position: relative;
+    width: 60px;
+    height: 20px;
+    font-size: 30px;
+    text-align: center;
+    /* background: purple; */
+}
